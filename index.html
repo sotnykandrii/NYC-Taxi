@@ -1,32 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NYC Taxi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .header {}
+    .social {
+      display: flex;
+      justify-content: space-between;
+      background-color: aqua;
+      padding: 0 30px;
+    }
+    .nav_wrapper {
+      display: flex;
+      justify-content: space-between;
+      background-color: aquamarine;
+    }
+    .links {
+      display: flex;
+      justify-content: space-around;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-          
-        </nav>
-<nav> 
-    <div class="menu">
-        <div class="logo">NYC Taxi</div>
-<a href="#our fleet">Our fleet</a>
-<a href="#about us">About us</a>
-<a href="#app">App</a>
-<a href="#faq">FAQ</a>
-<a href="#contacts">Contacts</a>
-<a href=”tel”>+1 (234) 567 89 00</a>.
+  <header>
+    <div class="social">
+      <span class="email">
+        andriy.sotnyk@gmail.com
+      </span>
+      <div class="social_wrapper">
+        <span class="facebook"><a href="#" class="fa fa-facebook"></a></span>
+        <span class="instagram"><a href="#" class="fa fa-instagram"></a></span>
+        <span class="instagram"><a href="#" class="fa fa-youtube"></a></span>
+      </div>
     </div>
-</nav>
-    </header>
-    <main>
+    <div class="nav_wrapper">
+      <div class="logo">NYC Taxi</div>
+      <div class="nav">
+        <div class="links">
+          <div class="link">Our fleet</div>
+          <div class="link">About us</div>
+          <div class="link">App</div>
+          <div class="link">FAQ</div>
+          <div class="link">Contacts</div>
+        </div>
+      </div>
+      <div class="phone">+1(234) 567 89 00</div>
+    </div>
+  </header>
+  <main>
+    <div class="book_ride">
+      <div class="form">
+      <form action="" class="">
+        <input type="text" placeholder="Phone number" name="phone" >
+        <select id="cars" name="cartype">
+          <option value="volvo">Car Type</option>
+          <option value="volvo">Van</option>
+          <option value="saab">Luxury</option>
+          <option value="opel">Sport</option>
+        </select>
+        <input type="text" placeholder="Travel From" name="travel_from" >
+        <input type="text" placeholder="Travel To" name="travel_to" >
+        <input type="text" placeholder="Pick Up Time" name="pickuptime" >
+        <input type="checkbox">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+      <div class="slogan">
+        <div class="slogan-title">
+          Your Reliable Taxi Service in NYC _
+        </div>
+        <div class="slogan-subtitle">
+          Taking you anywhere you need to go in a safe and timely manner.
+        </div>
+        <div class="action_button">
+          <button>Lear More</button>
+        </div>
+      </div>
+    </div>
+    <div class="taxi_classes">
 
-    </main>
-    <footer>
-        
-    </footer>
+    </div>
+  </main>
+  <footer>
+    
+  </footer>
 </body>
 </html>
